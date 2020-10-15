@@ -25,9 +25,10 @@ const useStyles = makeStyles(theme => ({
   offset: {
     paddingTop: '1.5rem',
     marginTop: '56px',
-    height: 'calc(100vh - 56px)',
+    paddingBottom: '20px',
+    minHeight: 'calc(100vh - 56px)',
     [theme.breakpoints.up("sm")]: {
-      height: 'calc(100vh - 64px)',
+      minHeight: 'calc(100vh - 64px)',
       marginTop: '64px'
     }
   },
