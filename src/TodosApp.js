@@ -57,7 +57,7 @@ export default function TodosApp() {
         <AppBar>
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
-              Todos with Hooks
+              Todos with Hooks and Context
             </Typography>
             <IconButton className={classes.icon} onClick={toggleTheme}>
               {darkTheme ? <BrightnessIconLight /> : <BrightnessIconDark />}
